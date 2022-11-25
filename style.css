@@ -1,0 +1,222 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.banner{
+    background-color:#ffbd59;
+    padding-bottom: -400px;
+}
+.col-sm-3{
+    text-decoration: none; color: black;
+}
+.header{
+    background-color:yellowgreen; 
+    padding-bottom:9px;
+    padding-top:9px
+}
+.form-control{
+    background-color: yellow;
+}
+.menu.ul {
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+    list-style-type: none;
+}
+#menu ul
+{
+  margin-left:  42px;
+}
+#menu ul li
+{
+  list-style-type: none;
+  display: inline;
+  margin-left: 50px;
+}
+.subheader .row .col-sm-2 {
+    top:85px;
+    right:500px;
+    display: flex;
+    text-align: center;
+    width: 170px;
+}
+#body.img{
+    top:85px;
+    right:500px;
+    display: flex;
+    width: 40px;
+    background-color: #ffbd59;
+    text-align: center;
+}
+.body.img{
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+ul.sunmenu {
+    width: 250px;
+    background: yellowgreen;
+    min-height: 200px;
+}
+ul.sunmenu li{
+    list-style: none;
+
+}
+ul.sunmenu li a{
+    text-decoration: none;
+    display: block;
+    line-height: 40px;
+}
+.root.ul sub-menu{
+      position: absolute;
+}
+ul sub-menu{
+    position: relative;
+}
+#menu.submenu.img{
+    display:none;
+    left: 50px;
+    margin: 20px;
+    padding: 50px;
+    padding-right: 230px;
+}
+.col-sm-3 .submenu{
+    display: none;
+}
+.col-sm-3 li:hover .submenu{
+    display: block;
+}
+ .submenu li { 
+    color: black;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    line-height: 40px;
+    text-indent: 10px;
+}
+.col-sm-3 .submenu{
+    position: absolute;
+    width: 300px;
+    background-color:white;
+    min-height: 150px;
+}
+.menu-big {
+    list-style: none;
+}
+.submenu {
+    margin-left:-40px;
+
+}
+.submenu :hover{
+    color: red;
+    transition: ease-in 0.10s;
+    -moz-transition: ease-in 0.10s;
+    -webkit-transition: ease-in 0.10s;
+    /* background-color:rgb(255, 233, 237); */
+}
+.submenu-1 .submenu-1ul{
+    display: none;
+}
+.submenu-1:hover .submenu-1ul{
+    display: block;
+}
+.submenu-1:hover .submenu-1ul{
+    display: block;
+    position: absolute;
+    line-height: 15px;
+    margin-left: 230px;
+    margin-top: -27px;
+    border: 1px solid rgb(245, 242, 243) ;
+    background-color: rgb(245, 242, 243) ;
+}
+.submenu-1ul{
+    width: 1050px;
+}
+.submenu-1ul a{
+    color: black;
+    text-decoration: none;
+}
+.submenu-2 .submenu-2ul{
+    display: none;
+}
+.submenu-2:hover .submenu-2ul{
+    display: block;
+    position: absolute;
+    line-height: 15px;
+    margin-left: 230px;
+    margin-top: -68px;
+    border: 1px solid rgb(245, 242, 243) ;
+    background-color: rgb(245, 242, 243) ;;
+}
+.submenu-2ul{
+    width: 1050px;
+}
+.submenu-2ul a{
+    color: black;
+    text-decoration: none;
+}
+.content-top .col-sm-3 img{
+    width:20px;
+} 
+#myCarousel{
+    width: 70%;
+    margin-left:24%;
+}
+ h5{
+    margin-top: 29px;
+}
+.col-sm-2.container {
+    position: relative;
+    width: 50%;
+  }
+.submenu .container{
+    position: fixed;
+    z-index: 3;
+    background: white;
+}
+.body.img{
+    left:100%;
+}
+.frame {
+    position: relative;
+    width: 250px;
+    height: 250px;
+}
+.pass10{
+    margin-bottom: 110px;
+
+}
+.frame {
+    position: relative;
+    width: 250px;
+    height: 250px;
+}
+.foot{
+    background: rgb(228, 222, 222);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 20px;
+    padding-left: 100px;
+    margin-bottom: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu2.row mt-3.col-md-3.img{
+    width: 30px;
+    display:flex;
+    justify-content: space-between;
+    justify-content: center;
+    padding: 30px;
+    height: 20px;  
+}
+.row.col-sm-3.img{
+   width: 30%;
+   height: 100%;
+} 
+.carousel-inner{
+    width: 70%;
+    height: 70%;
+   margin: 5px;
+}
+.row.col-sm-1.col-sm-2{
+    width: 120px;
+}
